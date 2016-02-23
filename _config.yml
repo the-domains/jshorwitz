@@ -1,7 +1,5 @@
-layout_spectrum: 0.5430108
 color:
   saturation: 0.7527452
-  lightness: 0.121388
   brandStrength: 0.1794174
   rhythmicContrast: 0.7401664
   brandColors:
@@ -10,5 +8,19 @@ color:
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
+  lightness: 0.121388
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.5430108
 typography_spectrum: 0.1777372
 name: JSHorwitz
